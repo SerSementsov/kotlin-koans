@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestOperatorsOverloading" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-14T15:02:08" hostname="gds000267-nb.carina.griddynamics.net" time="0.032">
+  <properties/>
+  <testcase name="testOneMonth" classname="TestOperatorsOverloading" time="0.024"/>
+  <testcase name="testAddOneTimeInterval" classname="TestOperatorsOverloading" time="0.004"/>
+  <testcase name="testMonthChange" classname="TestOperatorsOverloading" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

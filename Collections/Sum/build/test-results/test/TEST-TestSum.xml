@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSum" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-14T15:38:50" hostname="gds000267-nb.carina.griddynamics.net" time="0.045">
+  <properties/>
+  <testcase name="testGetTotalOrderPrice" classname="TestSum" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
