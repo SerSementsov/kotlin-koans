@@ -473,7 +473,7 @@
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="&quot;&quot;&quot;\d{2} ${month} \d{4}&quot;&quot;&quot;" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -788,7 +788,7 @@
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="RationalNumber(this, 1)" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -811,7 +811,7 @@
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="RationalNumber(first, second)" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -884,7 +884,7 @@
                                       <option name="placeholderText" value="object {}" />
                                       <option name="possibleAnswer" value="object : Comparator&lt;Int&gt; {&#10;    override fun compare(x: Int, y: Int) = y - x&#10;}" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -1188,7 +1188,7 @@
                                       <option name="placeholderText" value="/* TODO */" />
                                       <option name="possibleAnswer" value=" {&#10;    operator fun contains(item: MyDate): Boolean = start &lt;= item &amp;&amp; item &lt;= endInclusive&#10;}" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -1362,7 +1362,7 @@
                                       <option name="placeholderText" value="class DateRange(val start: MyDate, val end: MyDate)" />
                                       <option name="possibleAnswer" value="class DateRange(val start: MyDate, val end: MyDate): Iterable&lt;MyDate&gt;{&#10;    override fun iterator(): Iterator&lt;MyDate&gt; = DateIterator(this)&#10;}&#10;&#10;class DateIterator(val dateRange:DateRange) : Iterator&lt;MyDate&gt; {&#10;    var current: MyDate = dateRange.start&#10;    override fun next(): MyDate {&#10;        val result = current&#10;        current = current.nextDay()&#10;        return result&#10;    }&#10;    override fun hasNext(): Boolean = current &lt;= dateRange.end&#10;}" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -1463,7 +1463,7 @@
                                       <option name="placeholderText" value="operator fun MyDate.plus(timeInterval: TimeInterval): MyDate = TODO()" />
                                       <option name="possibleAnswer" value="&#10;operator fun MyDate.plus(timeInterval: TimeInterval) = addTimeIntervals(timeInterval, 1)&#10;&#10;class RepeatedTimeInterval(val timeInterval: TimeInterval, val number: Int)&#10;operator fun TimeInterval.times(number: Int) = RepeatedTimeInterval(this, number)&#10;&#10;operator fun MyDate.plus(timeIntervals: RepeatedTimeInterval) = addTimeIntervals(timeIntervals.timeInterval, timeIntervals.number)&#10;" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -1486,7 +1486,7 @@
                                       <option name="placeholderText" value="TODO(&quot;Uncomment&quot;) //return today + YEAR * 2 + WEEK * 3 + DAY * 5" />
                                       <option name="possibleAnswer" value="return today + YEAR * 2 + WEEK * 3 + DAY * 5" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Solved" />
+                                      <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -2649,7 +2649,7 @@
                       <option name="index" value="9" />
                       <option name="name" value="Partition" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -2671,13 +2671,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="4" />
+                                      <option name="length" value="214" />
                                       <option name="offset" value="145" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="customers.filter {&#10;    val (delivered, undelivered) = it.orders.partition { it.isDelivered }&#10;    undelivered.size &gt; delivered.size&#10;}.toSet()" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
@@ -2724,7 +2724,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="test/tests.kt" />
                                 <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.toMessage&#10;&#10;class TestPartition {&#10;    @Test fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {&#10;        Assert.assertTrue(&quot;getCustomerWithMaximumNumberOfOrders&quot;.toMessage(),&#10;                setOf(customers[reka]) == shop.getCustomersWithMoreUndeliveredOrdersThanDelivered())&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -2750,7 +2750,7 @@
                       <option name="index" value="10" />
                       <option name="name" value="Fold" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -2772,18 +2772,18 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="236" />
                                       <option name="offset" value="136" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="val allProducts = customers.flatMap { it.orders.flatMap { it.products }}.toSet()&#10;    return customers.fold(allProducts, {&#10;        orderedByAll, customer -&gt;&#10;        orderedByAll.intersect(customer.orders.flatMap { it.products }.toSet())&#10;    })" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="// Return the set of products that were ordered by every customer&#10;fun Shop.getSetOfProductsOrderedByEveryCustomer(): Set&lt;Product&gt; {&#10;    TODO()&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -2851,7 +2851,7 @@
                       <option name="index" value="11" />
                       <option name="name" value="Compound tasks" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -2873,13 +2873,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="100" />
                                       <option name="offset" value="166" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="return orders.filter { it.isDelivered }.flatMap { it.products }.maxBy { it.price }" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -2896,13 +2896,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="370" />
+                                      <option name="length" value="87" />
+                                      <option name="offset" value="464" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="return customers.flatMap { it.getOrderedProductsList() }.count { it == product }" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -2920,17 +2920,17 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="10" />
-                                      <option name="offset" value="380" />
+                                      <option name="offset" value="554" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="/* TODO */" />
                                       <option name="possibleAnswer" value="fun Customer.getOrderedProductsList(): List&lt;Product&gt; {&#10;    return orders.flatMap { it.products }&#10;}" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="// Return the most expensive product among all delivered products&#10;// (use the Order.isDelivered flag)&#10;fun Customer.getMostExpensiveDeliveredProduct(): Product? {&#10;    TODO()&#10;}&#10;&#10;// Return how many times the given product was ordered.&#10;// Note: a customer may order the same product for several times.&#10;fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {&#10;    TODO()&#10;}&#10;&#10;/* TODO */&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -2998,7 +2998,7 @@
                       <option name="index" value="12" />
                       <option name="name" value="Get used to new style" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -3020,13 +3020,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="145" />
+                                      <option name="length" value="8" />
+                                      <option name="offset" value="144" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="s.length" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -3043,13 +3043,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="221" />
+                                      <option name="length" value="11" />
+                                      <option name="offset" value="222" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="group.size" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
@@ -3066,18 +3066,18 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="293" />
+                                      <option name="length" value="32" />
+                                      <option name="offset" value="298" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="group.size == maximumSizeOfGroup" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="fun doSomethingStrangeWithCollection(collection: Collection&lt;String&gt;): Collection&lt;String&gt;? {&#10;&#10;    val groupsByLength = collection. groupBy { s -&gt; TODO() }&#10;&#10;    val maximumSizeOfGroup = groupsByLength.values.map { group -&gt; TODO() }.max()&#10;&#10;    return groupsByLength.values.firstOrNull { group -&gt; TODO() }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
